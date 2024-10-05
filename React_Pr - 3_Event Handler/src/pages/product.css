@@ -1,0 +1,64 @@
+.card .card-img-top{
+    height: 250px;
+    object-fit: cover;
+    background-size: contain;
+    transition: all 0.5s;
+    background-position: center;
+}
+.card{
+    overflow: hidden;
+    border: 1px dotted red!important;
+    box-shadow: 0 0 1px 2px white;
+    transition: all 0.5s;
+}
+.card .card-img-top:hover{
+    transform: scale(1.1);
+}
+.card:hover{
+    border: 1px solid black!important;
+    transform: scale(1.1);
+
+}
+.card{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent!important;
+    color: white!important;
+    margin-bottom: 20px!important;
+}
+
+.card h5{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+}
+.card p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white!important;
+}   
+
+button{
+    font-family: "Briem Hand", cursive!important;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/23458559/pexels-photo-23458559/free-photo-of-black-and-white-photo-of-mountains-in-the-distance.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.506)!important;
+}
